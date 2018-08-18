@@ -1,7 +1,8 @@
 # Mongoid Localized Fields Fallback Patch
 
-A patch for mongoid localized fields making it fallback through locale values
-that are not only `:nil?` but also `:blank?`.
+A patch for [mongoid](https://github.com/mongodb/mongoid) localized fields
+making it fallback through locale values that are not only `:nil?` but also
+`:blank?`.
 
 ## Installation
 
