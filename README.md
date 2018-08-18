@@ -1,8 +1,10 @@
 # Mongoid Localized Fields Fallback Patch
 
-A patch for [mongoid](https://github.com/mongodb/mongoid) localized fields
-making it fallback through locale values that are not only `:nil?` but also
-`:blank?`.
+[![Build Status](https://travis-ci.org/tomasc/mongoid_localized_fields_fallback_patch.svg)](https://travis-ci.org/tomasc/mongoid_localized_fields_fallback_patch) [![Gem Version](https://badge.fury.io/rb/mongoid_localized_fields_fallback_patch.svg)](http://badge.fury.io/rb/mongoid_localized_fields_fallback_patch) [![Coverage Status](https://img.shields.io/coveralls/tomasc/mongoid_localized_fields_fallback_patch.svg)](https://coveralls.io/r/tomasc/mmongoid_localized_fields_fallback_patch)
+
+A patch for [Mongoid](https://github.com/mongodb/mongoid) localized fields
+making it fallback through locale values that are not only `#nil?` but also
+`#blank?`.
 
 ## Installation
 
