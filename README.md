@@ -25,7 +25,7 @@ Or install it yourself as:
 ## Usage
 
 Just add `gem 'mongoid_localized_fields_fallback_patch'` to your Gemfile, 
-bundle install and you're good to go.
+run `bundle install` and you're good to go.
 
 ## Development
 
